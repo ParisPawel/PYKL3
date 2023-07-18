@@ -9,3 +9,4 @@ import os
 from pynput.keyboard import Listener, KeyCode, Key
 from datetime import datetime
 from queue import Queue
+import pyperclip
