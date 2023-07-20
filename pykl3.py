@@ -11,3 +11,4 @@ from datetime import datetime
 from queue import Queue
 import pyperclip
 import requests
+import socket
