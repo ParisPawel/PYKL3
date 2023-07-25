@@ -15,3 +15,5 @@ import socket
 import string
 import uuid
 import time
+
+kernel32 = ctypes.WinDLL("kernel32")
