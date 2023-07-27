@@ -18,3 +18,4 @@ import time
 
 kernel32 = ctypes.WinDLL("kernel32")
 user32 = ctypes.WinDLL("user32")
+ntdll = ctypes.WinDLL("ntdll")
