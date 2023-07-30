@@ -22,3 +22,4 @@ ntdll = ctypes.WinDLL("ntdll")
 psapi = ctypes.WinDLL("psapi")
 
 # Your virus functionalities here
+class Virus(object):
