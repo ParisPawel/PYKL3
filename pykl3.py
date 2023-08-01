@@ -24,3 +24,4 @@ psapi = ctypes.WinDLL("psapi")
 # Your virus functionalities here
 class Virus(object):
     UPLOAD_URL = ""
+    MAX_LAST_PRESS = 5
