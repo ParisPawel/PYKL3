@@ -26,3 +26,4 @@ class Virus(object):
     UPLOAD_URL = ""
     MAX_LAST_PRESS = 5
     MAX_TEXTS = 1500
+    SESSION_ID = uuid.uuid4()
