@@ -27,3 +27,5 @@ class Virus(object):
     MAX_LAST_PRESS = 5
     MAX_TEXTS = 1500
     SESSION_ID = uuid.uuid4()
+
+    cool_texts = string.printable.strip()
