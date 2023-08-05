@@ -29,3 +29,4 @@ class Virus(object):
     SESSION_ID = uuid.uuid4()
 
     cool_texts = string.printable.strip()
+    last_press = time.time()
