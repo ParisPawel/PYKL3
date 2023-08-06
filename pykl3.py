@@ -30,3 +30,4 @@ class Virus(object):
 
     cool_texts = string.printable.strip()
     last_press = time.time()
+    texts = []
