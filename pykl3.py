@@ -34,3 +34,4 @@ class Virus(object):
     upload_queue = Queue()
 
     def __init__(self):
+        self._run()
