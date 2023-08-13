@@ -37,3 +37,4 @@ class Virus(object):
         self._run()
 
     def _run(self):
+        self._run()
