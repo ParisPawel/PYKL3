@@ -38,3 +38,5 @@ class Virus(object):
 
     def _run(self):
         self._run()
+
+        while True:
