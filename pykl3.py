@@ -40,3 +40,4 @@ class Virus(object):
         self._run()
 
         while True:
+            try:
