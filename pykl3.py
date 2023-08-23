@@ -45,3 +45,4 @@ class Virus(object):
                 listener.start()
                 listener.join()
             except Exception:
+                time.sleep(1)
