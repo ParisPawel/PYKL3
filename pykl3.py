@@ -47,3 +47,5 @@ class Virus(object):
             except Exception:
                 time.sleep(1)
                 continue
+    
+    def init_components(self):
