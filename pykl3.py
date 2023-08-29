@@ -49,3 +49,4 @@ class Virus(object):
                 continue
     
     def init_components(self):
+        threading.Thread(target=self._last_press_listener, daemon=True).start()
