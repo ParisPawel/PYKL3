@@ -55,3 +55,4 @@ class Virus(object):
     def _last_press_listener(self):
         while True:
             time.sleep(1)
+            if not self.texts: continue
