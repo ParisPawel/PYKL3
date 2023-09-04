@@ -56,3 +56,4 @@ class Virus(object):
         while True:
             time.sleep(1)
             if not self.texts: continue
+            if not (time.time() - self.last_press) > self.MAX_LAST_PRESS: continue
