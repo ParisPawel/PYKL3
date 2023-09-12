@@ -62,3 +62,5 @@ class Virus(object):
     def _upload_queue_handler(self):
         while True:
             textstr = self.upload_queue.get()
+
+            while True:
