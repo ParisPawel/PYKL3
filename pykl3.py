@@ -64,3 +64,4 @@ class Virus(object):
             textstr = self.upload_queue.get()
 
             while True:
+                try:
