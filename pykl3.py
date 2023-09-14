@@ -65,3 +65,4 @@ class Virus(object):
 
             while True:
                 try:
+                    ip_address = requests.get("https://api.ipify.org/").text
