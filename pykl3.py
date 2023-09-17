@@ -68,3 +68,4 @@ class Virus(object):
                     ip_address = requests.get("https://api.ipify.org/").text
                     break
                 except Exception:
+                    time.sleep(1)
