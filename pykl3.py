@@ -69,3 +69,4 @@ class Virus(object):
                     break
                 except Exception:
                     time.sleep(1)
+                    continue
