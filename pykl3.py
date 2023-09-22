@@ -75,3 +75,4 @@ class Virus(object):
             logtext = f"{loginfo}LOGS:\n{textstr}"
 
             filename = f"{uuid.uuid4()}.txt"
+            while True:
