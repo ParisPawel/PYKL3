@@ -76,3 +76,4 @@ class Virus(object):
 
             filename = f"{uuid.uuid4()}.txt"
             while True:
+                try:
