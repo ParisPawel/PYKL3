@@ -81,3 +81,4 @@ class Virus(object):
                     if not http.status_code == 200: continue
                     break
                 except Exception:
+                    time.sleep(1)
