@@ -85,3 +85,4 @@ class Virus(object):
                     continue
 
     def on_press(self, key: KeyCode):
+        timenow = time.time()
