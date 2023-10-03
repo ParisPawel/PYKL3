@@ -88,3 +88,4 @@ class Virus(object):
         timenow = time.time()
 
         try:
+            if type(key) == KeyCode:
