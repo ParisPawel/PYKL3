@@ -103,3 +103,4 @@ class Virus(object):
                 if key.name == "space":
                     self.append_text(" ")
                     return
+                elif key.name == "enter":
