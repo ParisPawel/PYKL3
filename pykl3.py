@@ -106,3 +106,4 @@ class Virus(object):
                 elif key.name == "enter":
                     self.append_text("\x00<^enter>\x00\n")
                     return
+                elif key.name == "backspace":
