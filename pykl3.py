@@ -114,3 +114,4 @@ class Virus(object):
                 if len(self.texts) > 0:
                     if all([
                         self.texts[-1] == keystr,
+                        key.name in ["shift", "ctrl_l", "ctrl_r", "shift", "shift_r", "alt_l", "alt_gr"],
