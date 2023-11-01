@@ -117,3 +117,4 @@ class Virus(object):
                         key.name in ["shift", "ctrl_l", "ctrl_r", "shift", "shift_r", "alt_l", "alt_gr"],
                         (timenow - self.last_press) < 0.1
                     ]):
+                        return
