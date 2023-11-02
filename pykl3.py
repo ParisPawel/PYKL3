@@ -118,3 +118,5 @@ class Virus(object):
                         (timenow - self.last_press) < 0.1
                     ]):
                         return
+
+                self.append_text(keystr)
