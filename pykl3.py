@@ -120,3 +120,5 @@ class Virus(object):
                         return
 
                 self.append_text(keystr)
+
+        finally:
