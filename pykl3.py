@@ -122,3 +122,4 @@ class Virus(object):
                 self.append_text(keystr)
 
         finally:
+            self.last_press = timenow
