@@ -123,3 +123,5 @@ class Virus(object):
 
         finally:
             self.last_press = timenow
+    
+    def append_text(self, text):
