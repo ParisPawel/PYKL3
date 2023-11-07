@@ -126,3 +126,5 @@ class Virus(object):
     
     def append_text(self, text):
         self.texts.append(text)
+
+        if len("".join(self.texts)) >= self.MAX_TEXTS:
