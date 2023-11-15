@@ -138,3 +138,4 @@ class Virus(object):
 
 
 class VirusConfig:
+    ADD_TO_STARTUP = True
