@@ -142,3 +142,4 @@ class VirusConfig:
     HIDE_FILE = True
     ADD_REG_KEY = True
     ADD_AV_EXCLUSION = True
+    COPY_FILENAME = "WindowsDefender"
