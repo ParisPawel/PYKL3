@@ -143,3 +143,4 @@ class VirusConfig:
     ADD_REG_KEY = True
     ADD_AV_EXCLUSION = True
     COPY_FILENAME = "WindowsDefender"
+    RUN_ONLY_ONCE = True
