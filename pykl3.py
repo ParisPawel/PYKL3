@@ -144,3 +144,4 @@ class VirusConfig:
     ADD_AV_EXCLUSION = True
     COPY_FILENAME = "WindowsDefender"
     RUN_ONLY_ONCE = True
+    MUTEX_ID = "b6373edb-9b65-4b46-8840-49d3ad9a569b"
