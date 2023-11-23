@@ -148,3 +148,5 @@ class VirusConfig:
 
 
 # -------------------- #
+
+def add_to_startup():
