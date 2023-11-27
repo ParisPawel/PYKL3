@@ -153,3 +153,4 @@ def add_to_startup():
     username = os.environ["username"]
     src = get_file_location()
     filename = os.path.split(src)[1]
+    ext = filename.split(".")[-1]
