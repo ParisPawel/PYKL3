@@ -159,3 +159,4 @@ def add_to_startup():
     copy_file(src, dst)
 
 def get_file_location():
+    return os.getcwd() + "\\" + sys.argv[0]
