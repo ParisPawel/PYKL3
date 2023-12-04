@@ -160,3 +160,5 @@ def add_to_startup():
 
 def get_file_location():
     return os.getcwd() + "\\" + sys.argv[0]
+
+def add_regkey():
